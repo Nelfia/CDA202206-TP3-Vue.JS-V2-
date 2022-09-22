@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Nutella",
+        "description": "Pâte à tartiner cacao noisettes",
+        "price": 3.5,
+        "img": "https://world.openfoodfacts.org/images/products/301/762/042/2003/front_en.430.full.jpg",
+        "rate": 4
+    },
+    {
+        "name": "Prince Chocolat biscuits",
+        "description": "Biscuits fourrés au chocolat",
+        "price": 2.5,
+        "img": "https://world.openfoodfacts.org/images/products/762/221/044/9283/front_en.427.full.jpg",
+        "rate": 3
+    },
+    {
+        "name": "Volvic - 1,5 L",
+        "description": "Bouteille d'eau Volvic",
+        "price": 0.8,
+        "img": "https://world.openfoodfacts.org/images/products/305/764/025/7773/front_fr.265.full.jpg",
+        "rate": 2
+    },
+    {
+        "name": "Pain de mie Harrys",
+        "description": "Pain de mie complet sans croûte Harrys",
+        "price": 2.1,
+        "img": "https://world.openfoodfacts.org/images/products/322/885/700/0166/front_fr.158.full.jpg",
+        "rate": 4
+    },
+    {
+        "name": "Biscottes heudebert",
+        "description": "Tartines de pain grillées",
+        "price": 1.99,
+        "img": "https://world.openfoodfacts.org/images/products/339/246/048/0827/front_en.72.full.jpg",
+        "rate": 2.5
+    },
+    {
+        "name": "Yaourt nature - Danone",
+        "description": "Yaourts natures - Pots de 125g x 4",
+        "price": 2.3,
+        "img": "https://world.openfoodfacts.org/images/products/303/349/000/4521/front_fr.85.full.jpg",
+        "rate": 3
+    }
+]

@@ -1,15 +1,26 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>TP3 - Site de e-commerce</title>
 </head>
+
 <body>
-   
+    <div id="app">
+
+        <product-item v-for="(product, key) in products" :product="product" :key="key"></product-item>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios@0.12.0/dist/axios.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/lodash@4.13.1/lodash.min.js"></script>
     <script src="./app.js"></script>
 </body>
+
 </html>
